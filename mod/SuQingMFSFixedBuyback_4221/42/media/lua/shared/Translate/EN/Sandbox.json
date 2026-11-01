@@ -1,0 +1,11 @@
+{
+  "Sandbox_SuQingMFSFixedBuyback": "SuQing Fixed Buyback",
+  "Sandbox_SuQingMFSFixedBuyback_Enabled": "Enable fixed buyback",
+  "Sandbox_SuQingMFSFixedBuyback_Enabled_tooltip": "Permanently buys cash, precious jewelry, gems, watches and precious metals. Disable to restore MFS random buyback.",
+  "Sandbox_SuQingMFSFixedBuyback_Jewelry": "Buy precious jewelry",
+  "Sandbox_SuQingMFSFixedBuyback_Gems": "Buy gemstones",
+  "Sandbox_SuQingMFSFixedBuyback_Watches": "Buy watches and pocket watches",
+  "Sandbox_SuQingMFSFixedBuyback_Metals": "Buy gold and silver materials",
+  "Sandbox_SuQingMFSFixedBuyback_PriceMultiplier": "Buyback price multiplier",
+  "Sandbox_SuQingMFSFixedBuyback_PriceMultiplier_tooltip": "Default 1x: banknote 10, bundle 1000, silver coin 50, gold coin 250. Does not change the trader's equipment sale prices."
+}

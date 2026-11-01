@@ -1,0 +1,51 @@
+VERSION = 1,
+
+option SuQingMFSFixedBuyback.Enabled
+{
+    type = boolean,
+    default = true,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_Enabled,
+}
+
+option SuQingMFSFixedBuyback.Jewelry
+{
+    type = boolean,
+    default = true,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_Jewelry,
+}
+
+option SuQingMFSFixedBuyback.Gems
+{
+    type = boolean,
+    default = true,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_Gems,
+}
+
+option SuQingMFSFixedBuyback.Watches
+{
+    type = boolean,
+    default = true,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_Watches,
+}
+
+option SuQingMFSFixedBuyback.Metals
+{
+    type = boolean,
+    default = true,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_Metals,
+}
+
+option SuQingMFSFixedBuyback.PriceMultiplier
+{
+    type = double,
+    min = 0.1,
+    max = 10.0,
+    default = 1.0,
+    page = SuQingMFSFixedBuyback,
+    translation = SuQingMFSFixedBuyback_PriceMultiplier,
+}

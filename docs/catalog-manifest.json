@@ -1,0 +1,2588 @@
+{
+  "schemaVersion": 1,
+  "catalogCount": 122,
+  "categoryCounts": {
+    "currency": 4,
+    "gems": 5,
+    "jewelry": 88,
+    "metals": 8,
+    "watches": 17
+  },
+  "order": "itemType ascending; case-sensitive",
+  "catalogSha256": "53df0b7a972d5a444d7ce566abecd550cf3fa366bbf4b4b322ac23158934393f",
+  "sources": [
+    {
+      "path": "media/lua/shared/Translate/CN/ItemName.json",
+      "sha256": "df9a3d0a239ef4e0051cffb5b3a9b8d1ac77bc0cbeda1f6eaa1c8c8195e3713b"
+    },
+    {
+      "path": "media/scripts/generated/items/alarmclock.txt",
+      "sha256": "608a7cfd8f4a537424defc3b4694ba31ef604cc81177c579527419b28b95f516"
+    },
+    {
+      "path": "media/scripts/generated/items/alarmclockclothing.txt",
+      "sha256": "8370bbcf1b05d2a897e27b66750c26de88e0bc170aec27de058fd8e4452b1561"
+    },
+    {
+      "path": "media/scripts/generated/items/clothing.txt",
+      "sha256": "9edb818c5366978acc691bf44a539eb22680d334db07037e5db33064598a060a"
+    },
+    {
+      "path": "media/scripts/generated/items/normal.txt",
+      "sha256": "b76cf5f91dce33567ca2bda305c4e450be297aae6b1fc11b5b34dcb280d74567"
+    }
+  ],
+  "records": [
+    {
+      "itemType": "Base.Amethyst",
+      "category": "gems",
+      "price": 1000,
+      "displayName": "紫水晶",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 11777,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:ignorezombiedensity;base:ismemento",
+        "Icon": "Amethyst",
+        "Weight": "0.001"
+      },
+      "obsolete": false,
+      "classification": "loose_gem",
+      "reason": "Reviewed loose-gem ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_DangleGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "肚脐吊坠 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8053,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bellybutton_DangleGold",
+        "ClothingItem": "BellyButton_DangleGold",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_DangleGoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐吊坠 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8066,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Bellybutton_DangleGold",
+        "ClothingItem": "BellyButton_DangleGoldRuby",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_DangleSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "肚脐吊坠 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8079,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bellybutton_DangleSilver",
+        "ClothingItem": "BellyButton_DangleSilver",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_DangleSilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐吊坠 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8092,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondjewellery",
+        "Icon": "Bellybutton_DangleSilver",
+        "ClothingItem": "BellyButton_DangleSilverDiamond",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_RingGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "肚脐环 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8105,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "NoseRing_Gold",
+        "ClothingItem": "BellyButton_RingGold",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_RingGoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐环 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8118,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "NoseRing_Gold",
+        "ClothingItem": "BellyButton_RingGoldDiamond",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_RingGoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐环 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8131,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "NoseRing_Gold",
+        "ClothingItem": "BellyButton_RingGoldRuby",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_RingSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "肚脐环 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8144,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "NoseRing_Silver",
+        "ClothingItem": "BellyButton_RingSilver",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_RingSilverAmethyst",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐环 (银, 镶紫水晶)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8157,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:amethystjewellery",
+        "Icon": "NoseRing_Silver",
+        "ClothingItem": "BellyButton_RingSilverAmethyst",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_RingSilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐环 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8170,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondjewellery",
+        "Icon": "NoseRing_Silver",
+        "ClothingItem": "BellyButton_RingSilverDiamond",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_RingSilverRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐环 (银, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8183,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:rubyjewellery",
+        "Icon": "NoseRing_Silver",
+        "ClothingItem": "BellyButton_RingSilverRuby",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_StudGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "肚脐钉 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8196,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bellybutton_StudGold",
+        "ClothingItem": "BellyButton_StudGold",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_StudGoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐钉 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8209,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Bellybutton_StudGold",
+        "ClothingItem": "BellyButton_StudGoldDiamond",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.BellyButton_StudSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "肚脐钉 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8222,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bellybutton_StudSilver",
+        "ClothingItem": "BellyButton_StudSilver",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.BellyButton_StudSilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "肚脐钉 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8235,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondjewellery",
+        "Icon": "Bellybutton_StudSilver",
+        "ClothingItem": "BellyButton_StudSilverDiamond",
+        "BodyLocation": "base:bellybutton",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Bracelet_BangleLeftGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "手镯 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7909,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bracelet_Bangle",
+        "ClothingItem": "Bracelet_BangleLeftGold",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_BangleLeftSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "手镯 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7973,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bracelet_BangleSilver",
+        "ClothingItem": "Bracelet_BangleLeftSilver",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_BangleRightGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "手镯 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7893,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bracelet_Bangle",
+        "ClothingItem": "Bracelet_BangleRightGold",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_BangleRightSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "手镯 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7957,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bracelet_BangleSilver",
+        "ClothingItem": "Bracelet_BangleRightSilver",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_ChainLeftGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "手链 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7941,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bracelet_Chain",
+        "ClothingItem": "Bracelet_ChainLeftGold",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_ChainLeftSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "手链 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8005,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bracelet_ChainSilver",
+        "ClothingItem": "Bracelet_ChainLeftSilver",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_ChainRightGold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "手链 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7925,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Bracelet_Chain",
+        "ClothingItem": "Bracelet_ChainRightGold",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Bracelet_ChainRightSilver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "手链 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7989,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Bracelet_ChainSilver",
+        "ClothingItem": "Bracelet_ChainRightSilver",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Diamond",
+      "category": "gems",
+      "price": 1000,
+      "displayName": "钻石",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 11737,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:ignorezombiedensity;base:ismemento",
+        "Icon": "Diamond",
+        "Weight": "0.001"
+      },
+      "obsolete": false,
+      "classification": "loose_gem",
+      "reason": "Reviewed loose-gem ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Dangly_Diamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳坠 (钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7547,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2diamondjewellery",
+        "Icon": "Earring_Dangly_Diamond",
+        "ClothingItem": "Earring_Dangly_Diamond_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Dangly_Emerald",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳坠 (绿宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7521,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2emeraldjewellery",
+        "Icon": "Earring_Dangly_Emerald",
+        "ClothingItem": "Earring_Dangly_Emerald_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Dangly_Pearl",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳坠 (珍珠)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7560,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal",
+        "Icon": "Earring_Dangly_Pearl",
+        "ClothingItem": "Earring_Dangly_Pearl_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Dangly_Ruby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳坠 (红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7534,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2rubyjewellery",
+        "Icon": "Earring_Dangly_Ruby",
+        "ClothingItem": "Earring_Dangly_Ruby_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Dangly_Sapphire",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳坠 (蓝宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7508,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2sapphirejewellery",
+        "Icon": "Earring_Dangly_Sapphire",
+        "ClothingItem": "Earring_Dangly_Sapphire_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_LoopLrg_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "耳环 (大金圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7314,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Earring_LoopLrg_Gold",
+        "ClothingItem": "Earring_LoopLrg_Gold_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopLrg_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "耳环 (大银圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7327,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Earring_LoopLrg_Silver",
+        "ClothingItem": "Earring_LoopLrg_Silver_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopMed_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "耳环 (中金圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7353,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Earring_LoopMed_Gold",
+        "ClothingItem": "Earring_LoopMed_Gold_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopMed_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "耳环 (中银圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7340,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Earring_LoopMed_Silver",
+        "ClothingItem": "Earring_LoopMed_Silver_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopSmall_Gold_Both",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "耳环 (小金圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7382,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Earring_LoopSmall_Gold",
+        "ClothingItem": "Earring_LoopSmall_Gold_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopSmall_Gold_Top",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "耳扣 (小金圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7398,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Earring_LoopSmall_Gold",
+        "ClothingItem": "Earring_LoopSmall_Gold_Top",
+        "BodyLocation": "base:eartop",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopSmall_Silver_Both",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "耳环 (小银圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7366,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Earring_LoopSmall_Silver",
+        "ClothingItem": "Earring_LoopSmall_Silver_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_LoopSmall_Silver_Top",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "耳扣 (小银圈)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7414,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Earring_LoopSmall_Silver",
+        "ClothingItem": "Earring_LoopSmall_Silver_Top",
+        "BodyLocation": "base:eartop",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_Pearl",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳钉 (珍珠)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7495,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal",
+        "Icon": "Earring_Stud_Pearl",
+        "ClothingItem": "Earring_Pearl_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Stone_Emerald",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳钉 (翡翠)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7469,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2emeraldjewellery",
+        "Icon": "Earring_Stone_Emerald",
+        "ClothingItem": "Earring_Stone_Emerald_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Stone_Ruby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳钉 (红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7482,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2rubyjewellery",
+        "Icon": "Earring_Stone_Ruby",
+        "ClothingItem": "Earring_Stone_Ruby_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Stone_Sapphire",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "耳钉 (蓝宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7456,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:2sapphirejewellery",
+        "Icon": "Earring_Stone_Sapphire",
+        "ClothingItem": "Earring_Stone_Sapphire_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Earring_Stud_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "耳钉 (金饰)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7430,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Earring_Stud_Gold",
+        "ClothingItem": "Earring_Stud_Gold_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Earring_Stud_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "耳钉 (银饰)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7443,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Earring_Stud_Silver",
+        "ClothingItem": "Earring_Stud_Silver_Both",
+        "BodyLocation": "base:ears",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Emerald",
+      "category": "gems",
+      "price": 1000,
+      "displayName": "翡翠",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 11747,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:ignorezombiedensity;base:ismemento",
+        "Icon": "Emerald",
+        "Weight": "0.001"
+      },
+      "obsolete": false,
+      "classification": "loose_gem",
+      "reason": "Reviewed loose-gem ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.GoldBar",
+      "category": "metals",
+      "price": 8000,
+      "displayName": "金锭",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1643,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:ignorezombiedensity;base:hasmetal",
+        "Icon": "Ingot_Gold",
+        "Weight": "16.0"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.GoldCoin",
+      "category": "currency",
+      "price": 250,
+      "displayName": "硬币 (金)",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 9093,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:hasmetal;base:fitswallet;base:smallestgoldscrap",
+        "Icon": "Coin_Gold",
+        "Weight": "0.05"
+      },
+      "obsolete": false,
+      "classification": "currency",
+      "reason": "Reviewed currency ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.GoldScrap",
+      "category": "metals",
+      "price": 25,
+      "displayName": "金碎片",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1768,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:hasmetal",
+        "Icon": "GoldScrap",
+        "Weight": "0.05"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.GoldSheet",
+      "category": "metals",
+      "price": 250,
+      "displayName": "金板",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1844,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:hasmetal;base:ignorezombiedensity",
+        "Icon": "MetalSheet_Small",
+        "Weight": "0.5"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Money",
+      "category": "currency",
+      "price": 10,
+      "displayName": "钞票",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 8636,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Junk",
+        "Tags": "base:isfirefuel;base:isfiretinder;base:fitswallet",
+        "Icon": "Money",
+        "Weight": "0.01"
+      },
+      "obsolete": false,
+      "classification": "currency",
+      "reason": "Reviewed currency ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.MoneyBundle",
+      "category": "currency",
+      "price": 1000,
+      "displayName": "捆装钞票",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 8647,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Junk",
+        "Tags": "base:ignorezombiedensity;base:isfirefuel;base:isfiretinder",
+        "Icon": "Money_Stack",
+        "Weight": "0.5"
+      },
+      "obsolete": false,
+      "classification": "currency",
+      "reason": "Reviewed currency ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NecklaceLong_Amber",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "长项链 (琥珀)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7200,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Icon": "NecklaceLong_Amber",
+        "ClothingItem": "NecklaceLong_Amber",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NecklaceLong_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "长项链 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7122,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "NecklaceLong_Gold",
+        "ClothingItem": "NecklaceLong_Gold",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.NecklaceLong_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "长项链 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7135,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "NecklaceLong_GoldDiamond",
+        "ClothingItem": "NecklaceLong_GoldDiamond",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NecklaceLong_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "长项链 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7148,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "NecklaceLong_Silver",
+        "ClothingItem": "NecklaceLong_Silver",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "长项链 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7187,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondscrap",
+        "Icon": "NecklaceLong_SilverDiamond",
+        "ClothingItem": "NecklaceLong_SilverDiamond",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SilverEmerald",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "长项链 (银, 镶翡翠)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7161,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:emeraldjewellery",
+        "Icon": "NecklaceLong_SilverEmerald",
+        "ClothingItem": "NecklaceLong_SilverEmerald",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SilverSapphire",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "长项链 (银, 镶蓝宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7174,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:sapphirejewellery",
+        "Icon": "NecklaceLong_SilverSapphire",
+        "ClothingItem": "NecklaceLong_SilverSapphire",
+        "BodyLocation": "base:necklace_long",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Choker_Amber",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项圈 (琥珀)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7237,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Icon": "Necklace_Choker_Amber",
+        "ClothingItem": "Necklace_Choker_Amber",
+        "BodyLocation": "base:neck",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Choker_Diamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项圈 (钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7249,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:diamondjewellery",
+        "Icon": "Necklace_Choker_Diamond",
+        "ClothingItem": "Necklace_Choker_Diamond",
+        "BodyLocation": "base:neck",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Choker_Sapphire",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项圈 (蓝宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7224,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:sapphirejewellery",
+        "Icon": "Necklace_Choker_Sapphire",
+        "ClothingItem": "Necklace_Choker_Sapphire",
+        "BodyLocation": "base:neck",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "项链 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 6994,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Necklace_Gold",
+        "ClothingItem": "Necklace_Gold",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Necklace_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项链 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7020,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Necklace_GoldDiamond",
+        "ClothingItem": "Necklace_GoldDiamond",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_GoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项链 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7007,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Necklace_GoldRuby",
+        "ClothingItem": "Necklace_GoldRuby",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Pearl",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项链 (珍珠)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7110,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Icon": "Necklacepearl",
+        "ClothingItem": "Necklace_Pearl",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "项链 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7033,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Necklace_Silver",
+        "ClothingItem": "Necklace_Silver",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Necklace_SilverCrucifix",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "项链 (银, 配十字架)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7059,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Necklace_SilverCrucifix",
+        "ClothingItem": "Necklace_SilverCrucifix",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Necklace_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项链 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7072,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondjewellery",
+        "Icon": "Necklace_SilverDiamond",
+        "ClothingItem": "Necklace_SilverDiamond",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Necklace_SilverSapphire",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "项链 (银, 镶蓝宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7046,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:sapphirejewellery;base:tinysilverscrap",
+        "Icon": "Necklace_SilverSapphire",
+        "ClothingItem": "Necklace_SilverSapphire",
+        "BodyLocation": "base:necklace",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.NoseRing_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "鼻环 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7262,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "NoseRing_Gold",
+        "ClothingItem": "NoseRing_Gold",
+        "BodyLocation": "base:nose",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.NoseRing_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "鼻环 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7275,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "NoseRing_Silver",
+        "ClothingItem": "NoseRing_Silver",
+        "BodyLocation": "base:nose",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.NoseStud_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "鼻钉 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7288,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "NoseStud_Gold",
+        "ClothingItem": "NoseStud_Gold",
+        "BodyLocation": "base:nose",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.NoseStud_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "鼻钉 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7301,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "NoseStud_Silver",
+        "ClothingItem": "NoseStud_Silver",
+        "BodyLocation": "base:nose",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Pocketwatch",
+      "category": "watches",
+      "price": 300,
+      "displayName": "怀表",
+      "source": "media/scripts/generated/items/alarmclock.txt",
+      "line": 3,
+      "properties": {
+        "ItemType": "base:alarmclock",
+        "DisplayCategory": "Memento",
+        "Tags": "base:hasmetal;base:ignorezombiedensity;base:ismemento;base:fitskeyring",
+        "Icon": "Pocketwatch",
+        "Weight": "0.2"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "戒指 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7589,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Ring_Gold",
+        "ClothingItem": "Ring_Left_MiddleFinger_Gold",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7845,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Ring_GoldDiamond",
+        "ClothingItem": "Ring_Left_MiddleFinger_GoldDiamond",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_GoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7781,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Ring_GoldRuby",
+        "ClothingItem": "Ring_Left_MiddleFinger_GoldRuby",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_Signet",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "印章戒指",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8304,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:monogramownername",
+        "Icon": "Ring_Gold_Signet",
+        "ClothingItem": "Ring_Left_MiddleFinger_Signet",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Reviewed signet ring; vanilla Icon=Ring_Gold_Signet"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "戒指 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7653,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Ring_Silver",
+        "ClothingItem": "Ring_Left_MiddleFinger_Silver",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Left_MiddleFinger_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7717,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondscrap",
+        "Icon": "Ring_SilverDiamond",
+        "ClothingItem": "Ring_Left_MiddleFinger_SilverDiamond",
+        "BodyLocation": "base:left_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "戒指 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7621,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Ring_Gold",
+        "ClothingItem": "Ring_Left_RingFinger_Gold",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7877,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Ring_GoldDiamond",
+        "ClothingItem": "Ring_Left_RingFinger_GoldDiamond",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_GoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7813,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Ring_GoldRuby",
+        "ClothingItem": "Ring_Left_RingFinger_GoldRuby",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_Signet",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "印章戒指",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8338,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:monogramownername",
+        "Icon": "Ring_Gold_Signet",
+        "ClothingItem": "Ring_Left_RingFinger_Signet",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Reviewed signet ring; vanilla Icon=Ring_Gold_Signet"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "戒指 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7685,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Ring_Silver",
+        "ClothingItem": "Ring_Left_RingFinger_Silver",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Left_RingFinger_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7749,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondscrap",
+        "Icon": "Ring_SilverDiamond",
+        "ClothingItem": "Ring_Left_RingFinger_SilverDiamond",
+        "BodyLocation": "base:left_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "戒指 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7573,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Ring_Gold",
+        "ClothingItem": "Ring_Right_MiddleFinger_Gold",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7829,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Ring_GoldDiamond",
+        "ClothingItem": "Ring_Right_MiddleFinger_GoldDiamond",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_GoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7765,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Ring_GoldRuby",
+        "ClothingItem": "Ring_Right_MiddleFinger_GoldRuby",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_Signet",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "印章戒指",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8287,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:monogramownername",
+        "Icon": "Ring_Gold_Signet",
+        "ClothingItem": "Ring_Right_MiddleFinger_Signet",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Reviewed signet ring; vanilla Icon=Ring_Gold_Signet"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "戒指 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7637,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Ring_Silver",
+        "ClothingItem": "Ring_Right_MiddleFinger_Silver",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Right_MiddleFinger_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7701,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondscrap",
+        "Icon": "Ring_SilverDiamond",
+        "ClothingItem": "Ring_Right_MiddleFinger_SilverDiamond",
+        "BodyLocation": "base:right_middlefinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_Gold",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "戒指 (金)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7605,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap",
+        "Icon": "Ring_Gold",
+        "ClothingItem": "Ring_Right_RingFinger_Gold",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Vanilla TinyGoldScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_GoldDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7861,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:diamondjewellery",
+        "Icon": "Ring_GoldDiamond",
+        "ClothingItem": "Ring_Right_RingFinger_GoldDiamond",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_GoldRuby",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (金, 镶红宝石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7797,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinygoldscrap;base:rubyjewellery",
+        "Icon": "Ring_GoldRuby",
+        "ClothingItem": "Ring_Right_RingFinger_GoldRuby",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_Signet",
+      "category": "jewelry",
+      "price": 300,
+      "displayName": "印章戒指",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 8321,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:monogramownername",
+        "Icon": "Ring_Gold_Signet",
+        "ClothingItem": "Ring_Right_RingFinger_Signet",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gold",
+      "reason": "Reviewed signet ring; vanilla Icon=Ring_Gold_Signet"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_Silver",
+      "category": "jewelry",
+      "price": 100,
+      "displayName": "戒指 (银)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7669,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap",
+        "Icon": "Ring_Silver",
+        "ClothingItem": "Ring_Right_RingFinger_Silver",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "silver",
+      "reason": "Vanilla TinySilverScrap material tag"
+    },
+    {
+      "itemType": "Base.Ring_Right_RingFinger_SilverDiamond",
+      "category": "jewelry",
+      "price": 800,
+      "displayName": "戒指 (银, 镶钻石)",
+      "source": "media/scripts/generated/items/clothing.txt",
+      "line": 7733,
+      "properties": {
+        "ItemType": "base:clothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:tinysilverscrap;base:diamondscrap",
+        "Icon": "Ring_SilverDiamond",
+        "ClothingItem": "Ring_Right_RingFinger_SilverDiamond",
+        "BodyLocation": "base:right_ringfinger",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "gem_set",
+      "reason": "Reviewed gemstone, pearl, or amber jewelry ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Ruby",
+      "category": "gems",
+      "price": 1000,
+      "displayName": "红宝石",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 11757,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:ignorezombiedensity;base:ismemento",
+        "Icon": "Ruby",
+        "Weight": "0.001"
+      },
+      "obsolete": false,
+      "classification": "loose_gem",
+      "reason": "Reviewed loose-gem ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.Sapphire",
+      "category": "gems",
+      "price": 1000,
+      "displayName": "蓝宝石",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 11767,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:ignorezombiedensity;base:ismemento",
+        "Icon": "Sapphire",
+        "Weight": "0.001"
+      },
+      "obsolete": false,
+      "classification": "loose_gem",
+      "reason": "Reviewed loose-gem ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SilverBar",
+      "category": "metals",
+      "price": 800,
+      "displayName": "银锭",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1665,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:ignorezombiedensity;base:hasmetal",
+        "Icon": "Ingot_Silver",
+        "Weight": "8.0"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SilverCoin",
+      "category": "currency",
+      "price": 50,
+      "displayName": "硬币 (银)",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 9103,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Memento",
+        "Tags": "base:hasmetal;base:fitswallet;base:smallestsilverscrap",
+        "Icon": "Coin_Silver",
+        "Weight": "0.05"
+      },
+      "obsolete": false,
+      "classification": "currency",
+      "reason": "Reviewed currency ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SilverScrap",
+      "category": "metals",
+      "price": 5,
+      "displayName": "银碎片",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1778,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:hasmetal",
+        "Icon": "SilverScrap",
+        "Weight": "0.05"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SilverSheet",
+      "category": "metals",
+      "price": 50,
+      "displayName": "银板",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1858,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:hasmetal;base:ignorezombiedensity",
+        "Icon": "MetalSheet_Small",
+        "Weight": "0.5"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SmallGoldBar",
+      "category": "metals",
+      "price": 1000,
+      "displayName": "金锭 (小)",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1654,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:ignorezombiedensity;base:hasmetal",
+        "Icon": "Ingot_Gold",
+        "Weight": "2.0"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.SmallSilverBar",
+      "category": "metals",
+      "price": 100,
+      "displayName": "银锭 (小)",
+      "source": "media/scripts/generated/items/normal.txt",
+      "line": 1676,
+      "properties": {
+        "ItemType": "base:normal",
+        "DisplayCategory": "Material",
+        "Tags": "base:ignorezombiedensity;base:hasmetal",
+        "Icon": "Ingot_Silver",
+        "Weight": "1.0"
+      },
+      "obsolete": false,
+      "classification": "metal",
+      "reason": "Reviewed precious-metal ID and Chinese item name"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_ClassicBlack",
+      "category": "watches",
+      "price": 100,
+      "displayName": "经典腕表 (黑)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 22,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Black",
+        "ClothingItem": "WristWatch_Left_ClassicBlack",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_ClassicBrown",
+      "category": "watches",
+      "price": 100,
+      "displayName": "经典腕表 (棕)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 60,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Brown",
+        "ClothingItem": "WristWatch_Left_ClassicBrown",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_ClassicGold",
+      "category": "watches",
+      "price": 300,
+      "displayName": "经典腕表 (金)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 136,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Gold",
+        "ClothingItem": "WristWatch_Left_ClassicGold",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_ClassicMilitary",
+      "category": "watches",
+      "price": 150,
+      "displayName": "军用腕表",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 98,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Military",
+        "ClothingItem": "WristWatch_Left_ClassicMilitary",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_DigitalBlack",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (黑)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 174,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Black",
+        "ClothingItem": "WristWatch_Left_DigitalBlack",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_DigitalDress",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (金属风)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 250,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Fancy",
+        "ClothingItem": "WristWatch_Left_DigitalDress",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_DigitalRed",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (红)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 212,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Red",
+        "ClothingItem": "WristWatch_Left_DigitalRed",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Left_Expensive",
+      "category": "watches",
+      "price": 500,
+      "displayName": "豪华腕表",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 288,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:ignorezombiedensity;base:hasmetal;base:ismemento;base:digital",
+        "Icon": "Watch_Expensive",
+        "ClothingItem": "WristWatch_Left_Expensive",
+        "BodyLocation": "base:leftwrist",
+        "Weight": "0.2"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_ClassicBlack",
+      "category": "watches",
+      "price": 100,
+      "displayName": "经典腕表 (黑)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 3,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Black",
+        "ClothingItem": "WristWatch_Right_ClassicBlack",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_ClassicBrown",
+      "category": "watches",
+      "price": 100,
+      "displayName": "经典腕表 (棕)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 41,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Brown",
+        "ClothingItem": "WristWatch_Right_ClassicBrown",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_ClassicGold",
+      "category": "watches",
+      "price": 300,
+      "displayName": "经典腕表 (金)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 117,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Gold",
+        "ClothingItem": "WristWatch_Right_ClassicGold",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_ClassicMilitary",
+      "category": "watches",
+      "price": 150,
+      "displayName": "军用腕表",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 79,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:hasmetal;base:morewhennozombies",
+        "Icon": "Watch_Military",
+        "ClothingItem": "WristWatch_Right_ClassicMilitary",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_DigitalBlack",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (黑)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 155,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Black",
+        "ClothingItem": "WristWatch_Right_DigitalBlack",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_DigitalDress",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (金属风)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 231,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Fancy",
+        "ClothingItem": "WristWatch_Right_DigitalDress",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_DigitalRed",
+      "category": "watches",
+      "price": 100,
+      "displayName": "电子表 (红)",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 193,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:digital;base:hasmetal;base:morewhennozombies",
+        "Icon": "DigitalWatch_Red",
+        "ClothingItem": "WristWatch_Right_DigitalRed",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.1"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    },
+    {
+      "itemType": "Base.WristWatch_Right_Expensive",
+      "category": "watches",
+      "price": 500,
+      "displayName": "豪华腕表",
+      "source": "media/scripts/generated/items/alarmclockclothing.txt",
+      "line": 269,
+      "properties": {
+        "ItemType": "base:alarmclockclothing",
+        "DisplayCategory": "Accessory",
+        "Tags": "base:ignorezombiedensity;base:hasmetal;base:ismemento;base:digital",
+        "Icon": "Watch_Expensive",
+        "ClothingItem": "WristWatch_Right_Expensive",
+        "BodyLocation": "base:rightwrist",
+        "Weight": "0.2"
+      },
+      "obsolete": false,
+      "classification": "watch",
+      "reason": "Explicit watch ID and vanilla alarm-clock item type"
+    }
+  ],
+  "optionalLegacyNames": [
+    {
+      "itemType": "Base.WeddingRing_Man",
+      "scriptExists": false,
+      "translationExists": true,
+      "included": false,
+      "reason": "Current script required; translation-only legacy name is not eligible"
+    },
+    {
+      "itemType": "Base.WeddingRing_Woman",
+      "scriptExists": false,
+      "translationExists": true,
+      "included": false,
+      "reason": "Current script required; translation-only legacy name is not eligible"
+    }
+  ],
+  "auditedExclusions": [
+    {
+      "itemType": "Base.AlarmClock2",
+      "reason": "Household alarm clock is not a watch"
+    },
+    {
+      "itemType": "Base.Bracelet_LeftFriendshipTINT",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Bracelet_RightFriendshipTINT",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Earring_BirdSkull",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Earring_BoarTusk",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.FriedOnionRings",
+      "reason": "Food is never jewelry"
+    },
+    {
+      "itemType": "Base.FriedOnionRingsCraft",
+      "reason": "Food is never jewelry"
+    },
+    {
+      "itemType": "Base.KeyRing",
+      "reason": "Keyring is outside the approved jewelry scope"
+    },
+    {
+      "itemType": "Base.KeyRing_Forged_Gold",
+      "reason": "Keyring is outside the approved jewelry scope"
+    },
+    {
+      "itemType": "Base.KeyRing_Forged_Silver",
+      "reason": "Keyring is outside the approved jewelry scope"
+    },
+    {
+      "itemType": "Base.Locket",
+      "reason": "Material is not established as precious metal or gemstone"
+    },
+    {
+      "itemType": "Base.Medal_Bronze",
+      "reason": "Material is not established as precious metal or gemstone"
+    },
+    {
+      "itemType": "Base.Medal_Gold",
+      "reason": "Material is not established as precious metal or gemstone"
+    },
+    {
+      "itemType": "Base.Medal_Silver",
+      "reason": "Material is not established as precious metal or gemstone"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SkullMammal",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SkullMammal_Multi",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SkullSmall",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.NecklaceLong_SkullSmall_Multi",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.NecklaceLong_Teeth",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_BoarTusk",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_BoarTusk_Multi",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_Choker",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Necklace_Choker_Bone",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_Crucifix",
+      "reason": "Material is not established as precious metal or gemstone"
+    },
+    {
+      "itemType": "Base.Necklace_DogTag",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Necklace_DogTag_Female",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Necklace_DogTag_Male",
+      "reason": "Plain or nonvaluable accessory"
+    },
+    {
+      "itemType": "Base.Necklace_SkullMammal",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_SkullMammal_Multi",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_SkullSmall",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_SkullSmall_Multi",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_Teeth",
+      "reason": "Animal bone, teeth, skull, or tusk"
+    },
+    {
+      "itemType": "Base.Necklace_YingYang",
+      "reason": "Material is not established as precious metal or gemstone"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+name=蘇清的枪械商店固定收购
+namezh=蘇清的枪械商店固定收购
+id=SuQingMFSFixedBuyback_4221
+author=SuQing
+modversion=1.1.0
+versionMin=42.21
+versionMax=42.21
+require=ModernFirearmsSystem
+loadModAfter=ModernFirearmsSystem
+description=Fixed MFS radio buyback with one-click sale of all eligible cash, precious jewelry, gemstones, watches and precious metals. Immediate single-player settlement. Money 10, bundle 1000, silver coin 50, gold coin 250. Keeps original balance, random equipment stock and refresh schedule. Favorites and worn items are protected. Independent single-player patch; watches and metals enabled by default. Changes gameplay balance.

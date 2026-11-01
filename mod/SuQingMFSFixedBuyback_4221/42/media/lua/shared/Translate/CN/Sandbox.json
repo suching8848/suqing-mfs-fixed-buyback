@@ -1,0 +1,11 @@
+{
+  "Sandbox_SuQingMFSFixedBuyback": "蘇清·商店固定收购",
+  "Sandbox_SuQingMFSFixedBuyback_Enabled": "启用固定收购",
+  "Sandbox_SuQingMFSFixedBuyback_Enabled_tooltip": "固定收购现金、贵重首饰、宝石、手表和贵金属材料。关闭后恢复现代枪械系统原来的随机收购。",
+  "Sandbox_SuQingMFSFixedBuyback_Jewelry": "收购贵重首饰",
+  "Sandbox_SuQingMFSFixedBuyback_Gems": "收购独立宝石",
+  "Sandbox_SuQingMFSFixedBuyback_Watches": "收购手表与怀表",
+  "Sandbox_SuQingMFSFixedBuyback_Metals": "收购金银材料",
+  "Sandbox_SuQingMFSFixedBuyback_PriceMultiplier": "收购价格倍率",
+  "Sandbox_SuQingMFSFixedBuyback_PriceMultiplier_tooltip": "默认1倍：钞票10、捆装钞票1000、银币50、金币250。只调整收购所得，不调整商人装备售价。"
+}
