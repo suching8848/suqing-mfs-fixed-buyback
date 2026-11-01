@@ -1,4 +1,4 @@
-# SuQing's Fixed Gunshop Buyback | 蘇清的枪械商店固定收购模组
+# SuQing’s MFS Fixed Buyback Mod / 蘇清的枪械商店固定收购模组
 
 [中文](README.md) | English
 
@@ -37,3 +37,9 @@ Offline UI and inventory tests use controlled doubles. They do not establish cor
 All installable package files, the version and Mod ID remain unchanged during Git preparation. Offline runners invoke a Kahlua helper main class rather than the game client. Building and packaging do not deploy files to a personal save.
 
 No open-source license has been assigned. Project Zomboid and ModernFirearmsSystem remain the work of their respective authors; this repository contains the independent add-on, project-owned verification tools and compatibility metadata.
+
+## Related projects and setup snapshot
+
+[All eight mod and patch repositories](docs/project-index.md) · [Current 205-ID enabled order](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+
+The source index covers 37 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.

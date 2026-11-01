@@ -1,4 +1,4 @@
-# 蘇清的枪械商店固定收购模组 | SuQing's Fixed Gunshop Buyback
+# 蘇清的枪械商店固定收购模组 / SuQing’s MFS Fixed Buyback Mod
 
 中文 | [English](README.en.md)
 
@@ -15,7 +15,7 @@ Build 42.21 单人本地补丁，当前版本 1.1.0。为 ModernFirearmsSystem �
 - 必需原作：[ModernFirearmsSystem / 现代枪械系统](https://steamcommunity.com/sharedfiles/filedetails/?id=3633421539)，Workshop ID `3633421539`，Mod ID `ModernFirearmsSystem`。本模组在原作之后加载，不附带原作源码或资源。
 - 本模组固定 ID `SuQingMFSFixedBuyback_4221`，当前版本 **1.1.0**，支持 Build 42.21 单人；未发布独立创意工坊条目。
 - 完全退出游戏，按需要保护目标存档后，将 `mod/SuQingMFSFixedBuyback_4221` 复制到用户 `Zomboid/mods`。在目标单人档中启用原作与本模组并保持依赖顺序，然后重启游戏；同一 Mod ID 只安装一份来源。
-- [蘇清的综合补丁](https://github.com/suching8848/suqing-project-zomboid-patches/) 是可选补丁集合，**不是本模组前置**。其中 MFS 瞄具、灯光、弹药视觉修复各处理原作的独立问题，不提供本模组的固定收购逻辑；枪械减重挂件也是独立模组，无需为固定收购安装。
+- [蘇清的僵尸毁灭工程补丁合集](https://github.com/suching8848/suqing-project-zomboid-patches/) 是可选补丁集合，**不是本模组前置**。其中 MFS 瞄具、灯光、弹药视觉修复各处理原作的独立问题，不提供本模组的固定收购逻辑；枪械减重挂件也是独立模组，无需为固定收购安装。
 
 ## 文件
 
@@ -39,3 +39,9 @@ UI 和物品操作离线测试使用受控替身，不能代替游戏内视觉�
 本次 Git 整理保持安装包全部文件、版本及 Mod ID 不变。离线工具只调用 Kahlua 辅助主类，不启动游戏客户端；构建或打包不会部署到个人存档。
 
 本项目未指定开源许可证。Project Zomboid 与 ModernFirearmsSystem 的原作内容归各自作者，本仓库仅保留独立扩展、自制验证工具及兼容元数据。
+
+## 相关项目与配置快照
+
+[全部 8 个模组与补丁仓库](docs/project-index.md) · [当前单人档 205 项启用顺序](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+
+源码索引涵盖 37 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。

@@ -1,0 +1,2367 @@
+{
+  "updated_at": "2026-11-02T01:10:45.276753+08:00",
+  "game_version": "42.21.0",
+  "mode": "single-player",
+  "collection_id": "3823981387",
+  "collection_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387",
+  "author_report": "The author previously reported normal play with their full B42.21 single-player setup. This current enabled-list snapshot contains 205 Mod IDs, including 33 separately installed local mods or patches not included in Workshop collection downloads. Per-project verification status is documented separately.",
+  "enabled_mod_id_count": 205,
+  "workshop_item_count": 161,
+  "local_only_mod_id_count": 33,
+  "ordered_mod_ids": [
+    "PROJECTRVInterior42",
+    "ZombieBuddy",
+    "Viewpoint",
+    "damnlib",
+    "TrustyFireAxeRedux2K",
+    "TrustyFireAxeRedux",
+    "Asakusa lake town",
+    "tsarslib",
+    "Animalsdonotattackbuildings",
+    "Animalsdonotattackplayer",
+    "Animalsdonotstressaboveground",
+    "ATA_Mustang",
+    "FixedLightOnBeltAF",
+    "AA2NikkeMustang",
+    "AttackInterruptionAction",
+    "GetUpQuick",
+    "ATA_VanDeRumba",
+    "ATA_VanDeRumbaGardenia",
+    "BrighterHeadlights",
+    "UnclearOpaqueHoppableFade",
+    "BuildingCraft",
+    "Erikas_Tiles",
+    "BuildingCraftErikastiles",
+    "RaccoonCityB42",
+    "CleanHotBar",
+    "BuildingCraftRaccoonCity",
+    "NeatUI_Framework",
+    "Project_Cook",
+    "Cute girl voice_solo",
+    "B42DisableDebugText",
+    "EliazNoMoreRottingCropsB42",
+    "Erikas_Furniture_Store",
+    "CleanUI",
+    "P4HasBeenRead",
+    "Fashionoid42",
+    "FixBlowTorchPropaneTank",
+    "Flashlight&LanternOnBeltB42",
+    "ImprovedFarmingInfoWindow",
+    "InjuryIndicator",
+    "MakeSmokerGreatAgain",
+    "MapSymbolsPlusDeonHand",
+    "ModLoadOrderSorter_b42",
+    "ChuckleberryFinnAlertSystem",
+    "ModernStatus",
+    "MoreItemInformation",
+    "MoreBooksSP",
+    "beek_muldraugh_firedept",
+    "Neat_Building",
+    "Neat_Building_AddonXP",
+    "Neat_Crafting",
+    "Ranger'sHomesteadB42",
+    "Neat_Crafting_AddonXP",
+    "NoWelcomeWindow",
+    "OpenMoreOptions",
+    "modid",
+    "SafeWayHamlet",
+    "errorMagnifier",
+    "Xixi's Weapon Pack",
+    "VehicleRepairOverhaul",
+    "VehicleSalvageOverhaulB42",
+    "Waterpipes",
+    "TheyAreSaved",
+    "TheShortcut",
+    "Ivmakk_RestoreEngineQuality",
+    "TableSaw",
+    "GIRLS BAND CRY Music",
+    "Poppin'Party music b42",
+    "Anime music b42",
+    "b42FasterActions",
+    "SkillRecoveryJournal",
+    "ClientModsToServer",
+    "WorkshopUpdateCheck",
+    "truemusic",
+    "Roselia Music",
+    "SapphCooking_B42",
+    "VanillaFoodsExpanded",
+    "MREfood4213",
+    "Chinesecuisine4213",
+    "SuPrimitiveCooking",
+    "ATA_VanDeRumbaGardeniaSkin",
+    "DIYAutotsarParts42",
+    "DIYAutotsarParts42MustangAddon",
+    "DIYAutotsarParts42VanillaAddon",
+    "MoreDamagedObjects",
+    "Estate 39",
+    "LBB42",
+    "Legendary Backpacks - Texture Addon",
+    "L4D2 Zombie Siege background Main Menu [16:9]",
+    "noirrslingMutiple",
+    "noirrsling_HideSling",
+    "REORDER_THE_HOTBAR",
+    "Constown42",
+    "42Grapeseed",
+    "noirrsling4-42.13patch",
+    "Codex_NoirSling_SP_Compat_4221",
+    "ProximityInventory",
+    "ModernFirearmsSystem",
+    "TheyKnewContinued",
+    "CommonSenseReup",
+    "WashFix",
+    "CharacterOutfitPresetFix",
+    "TargetSquareOnLoad",
+    "ISA",
+    "42_VSGirlBodyNSFW",
+    "FantasyWorkshopVS42_4.0",
+    "4123567854998",
+    "BladesmithSystemB42",
+    "BackpackSystemB42",
+    "SuPrimitiveEquipment",
+    "TradingTrailer",
+    "KI5campers",
+    "Codex_Campers_Glovebox_4221",
+    "RVs_HeavyDuty_Trailers",
+    "birdbrainsPlushModLib",
+    "MikuPlush",
+    "TetoPlushies",
+    "postersplus",
+    "CustomMapLabels",
+    "Spawn Location_CN",
+    "B42Trans_CN",
+    "B42ModTrans_CN",
+    "GardeniaTranslate_CN",
+    "Codex_DebugMenu_Generator_4221",
+    "Codex_AmmoBox_CN_TextFix_4221",
+    "yxjs_PinYinSearch",
+    "PinyinSearch_SafeSources_4221_LocalFix",
+    "Codex_ChineseCrop_Tooltip_4221",
+    "NeatUI_Equipment",
+    "MoreAlertsB42",
+    "Codex_MFS_AttachedLight_Hotkey_4221",
+    "Codex_MFS_AmmoVisual_Compat_4221",
+    "STA_BetterHutches",
+    "ZombieDismembermentB42",
+    "ZombieVisibilityFix",
+    "TrueWeight",
+    "Codex_AttachedGrouping_4221",
+    "Codex_TrueMusic_Headphones_4221",
+    "AutomaticStoveShutoff",
+    "Codex_PrimitiveTooltip_4221",
+    "Codex_DAMN_VanillaTires_4221",
+    "Codex_PetGunWeightKits_4221",
+    "Codex_InventoryTransferPerformance_4221",
+    "SuQingContainerUpgrade_4221",
+    "ExSuQingBackpackSuperUpgrade_4221",
+    "SuQingMFSFixedBuyback_4221",
+    "ProjectFullHD",
+    "CVI",
+    "ConditionOnDash",
+    "ImmersiveSnow",
+    "BetterGeneratorInfo",
+    "LKB42",
+    "RainCleansBlood",
+    "XingHeVitamin enhancement-42.13.1",
+    "XFACTION_DynamicTraits",
+    "AdrenalineShot",
+    "RedbullSlobodskoy",
+    "MonsterEnergy",
+    "N&CsNarcotics",
+    "LiuDing_Tiles",
+    "Roccos_Tiles",
+    "Begonia_Town",
+    "UnofficialMappersCommunityTilePack",
+    "ThermoNewburbs",
+    "Nekomata Ridge",
+    "CodexNekomataEXCompat_4221",
+    "CodexNekomataEXUpgrade_4221",
+    "CodexCBRTIndependent_4221",
+    "CodexXFACTION_CN_4221",
+    "CodexTranslatorPercentFix_4221",
+    "CodexCharacterMenuTweaks_4221",
+    "SurvivorBriefing",
+    "UsefulBarrelsMP",
+    "LootTrackerB42",
+    "CodexNarcotics_CN_4221",
+    "SuQingRefrigerationUpgrade_4221",
+    "ItIsOfInterestToMe",
+    "CodexPZOptimization_CN_4221",
+    "ImmersiveSnowViewpoint",
+    "RVViewpointPatch",
+    "ProjectViewpointQOL",
+    "SuThrow3D",
+    "WallTextureFixForViewpoint",
+    "ViewpointDLSS",
+    "Codex_MFSOpticsFix_4221",
+    "ViewpointTileFix",
+    "ViewpointFences3D",
+    "ViewpointBarricade",
+    "ViewpointDoor",
+    "ViewpointLight",
+    "DynamicGearRattling",
+    "HavenFall",
+    "PZVoxelStudioViewpoint",
+    "ViewpointVisibleLoot",
+    "TarkovCombatStims",
+    "Codex_SuQingWearableCompat_4221",
+    "Codex_StimCompatibility_4221",
+    "Codex_NarcoticsStatus_4221",
+    "Codex_FashionoidFluidTooltip_4221",
+    "Codex_XFDynamicRecordGuard_4221",
+    "Codex_MustangRecipeGuard_4221",
+    "vac_mod_b42_utils",
+    "Karas Zone Selector API",
+    "vac_batch_farming",
+    "SuQingSprinklerFertilizer",
+    "SuQingBatchFarmingMenu_4221"
+  ],
+  "ordered_workshop_ids": [
+    "3543229299",
+    "3619862853",
+    "3809306528",
+    "3171167894",
+    "3400045232",
+    "3482962418",
+    "3402491515",
+    "3469436421",
+    "3405178154",
+    "3625933422",
+    "3405239070",
+    "3464723777",
+    "3444943638",
+    "3432015133",
+    "3572562329",
+    "3425507560",
+    "3799523320",
+    "3459887404",
+    "3346506593",
+    "3488891189",
+    "3388468313",
+    "3461263912",
+    "3459888193",
+    "3508537032",
+    "3490188370",
+    "3393919250",
+    "3428712661",
+    "3433115352",
+    "3363546437",
+    "3437629766",
+    "2544353492",
+    "3402442760",
+    "3044705007",
+    "3401219823",
+    "3470852353",
+    "3565698092",
+    "3389960727",
+    "3399645148",
+    "3423660713",
+    "3077900375",
+    "3451167732",
+    "3494474677",
+    "3591234912",
+    "3585472912",
+    "3536052310",
+    "3540503606",
+    "3502080466",
+    "3527172639",
+    "3389338537",
+    "3414095241",
+    "3522517059",
+    "3533315055",
+    "2896041179",
+    "3442077203",
+    "2757712197",
+    "3546314080",
+    "3401736188",
+    "3470659758",
+    "3543612325",
+    "3540297822",
+    "3554671997",
+    "3585009083",
+    "3585014312",
+    "3622862558",
+    "2503622437",
+    "2756434288",
+    "3628835042",
+    "3397198968",
+    "3654879576",
+    "3409143790",
+    "3577903007",
+    "3488617262",
+    "3412969115",
+    "3619229745",
+    "3619052766",
+    "3526469707",
+    "3413150945",
+    "3606927986",
+    "3538353228",
+    "3640321748",
+    "3388808256",
+    "3388107363",
+    "2903771337",
+    "3480990544",
+    "2463499011",
+    "3625510824",
+    "2847184718",
+    "3633421539",
+    "3813362974",
+    "3792900796",
+    "3460812542",
+    "3695510332",
+    "2969455858",
+    "3781944805",
+    "3640496116",
+    "3717576490",
+    "3497748766",
+    "3572122233",
+    "3670064951",
+    "3773998539",
+    "3689946923",
+    "3768357815",
+    "3603577358",
+    "3646582371",
+    "3559737194",
+    "3448235767",
+    "3556544454",
+    "3556540080",
+    "3488835702",
+    "3657184750",
+    "3790656296",
+    "3649265704",
+    "3721829036",
+    "3811483602",
+    "3814073243",
+    "3768669395",
+    "3526968739",
+    "3824003141",
+    "3823988025",
+    "3803108123",
+    "3749026793",
+    "3306168142",
+    "3810071828",
+    "3576056135",
+    "3668370011",
+    "2956146279",
+    "3628786816",
+    "3820502127",
+    "3791221767",
+    "3645178092",
+    "3789832800",
+    "3404956403",
+    "3736154771",
+    "3666137359",
+    "3736155379",
+    "3628736763",
+    "3520263838",
+    "3782173659",
+    "3808944882",
+    "3436537035",
+    "3823828778",
+    "3796373365",
+    "3816586790",
+    "3817030886",
+    "3811256204",
+    "3826757123",
+    "3820609079",
+    "3818838508",
+    "3814178814",
+    "3814486926",
+    "3815033191",
+    "3812151347",
+    "3811344119",
+    "3808152720",
+    "3728357493",
+    "3810302175",
+    "3818189653",
+    "3815980431",
+    "3557515648",
+    "3653913180",
+    "3721577741"
+  ],
+  "mods": [
+    {
+      "order": 1,
+      "mod_id": "PROJECTRVInterior42",
+      "name": "[B42]PROJECT RV Interior",
+      "workshop_ids": [
+        "3543229299"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 2,
+      "mod_id": "ZombieBuddy",
+      "name": "ZombieBuddy",
+      "workshop_ids": [
+        "3619862853"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 3,
+      "mod_id": "Viewpoint",
+      "name": "Viewpoint",
+      "workshop_ids": [
+        "3809306528"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 4,
+      "mod_id": "damnlib",
+      "name": "that DAMN Library",
+      "workshop_ids": [
+        "3171167894"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 5,
+      "mod_id": "TrustyFireAxeRedux2K",
+      "name": "MK9 Trusty FireAxe Redux 2K Texture Addon",
+      "workshop_ids": [
+        "3400045232"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 6,
+      "mod_id": "TrustyFireAxeRedux",
+      "name": "MK9 Trusty FireAxe Redux B42.13.1+",
+      "workshop_ids": [
+        "3400045232"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 7,
+      "mod_id": "Asakusa lake town",
+      "name": "Asakusa lake town",
+      "workshop_ids": [
+        "3482962418"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 8,
+      "mod_id": "tsarslib",
+      "name": "Tsar's Common Library",
+      "workshop_ids": [
+        "3402491515"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 9,
+      "mod_id": "Animalsdonotattackbuildings",
+      "name": "Animals do not attack buildings",
+      "workshop_ids": [
+        "3469436421"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 10,
+      "mod_id": "Animalsdonotattackplayer",
+      "name": "Animals do not attack player",
+      "workshop_ids": [
+        "3469436421"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 11,
+      "mod_id": "Animalsdonotstressaboveground",
+      "name": "Animals do not stress above ground",
+      "workshop_ids": [
+        "3469436421"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 12,
+      "mod_id": "ATA_Mustang",
+      "name": "Autotsar Tuning Atelier - Fjord Mustard [B42]",
+      "workshop_ids": [
+        "3405178154"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 13,
+      "mod_id": "FixedLightOnBeltAF",
+      "name": "[B42] Simple Flashlight on Belt! (Angled Flashlight fix)",
+      "workshop_ids": [
+        "3625933422"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 14,
+      "mod_id": "AA2NikkeMustang",
+      "name": "AA^2's Fjord Mustang Nikke Skin",
+      "workshop_ids": [
+        "3405239070"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 15,
+      "mod_id": "AttackInterruptionAction",
+      "name": "AttackInterruptionAction",
+      "workshop_ids": [
+        "3464723777"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 16,
+      "mod_id": "GetUpQuick",
+      "name": "Get Up Quick",
+      "workshop_ids": [
+        "3444943638"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 17,
+      "mod_id": "ATA_VanDeRumba",
+      "name": "Autotsar Tuning Atelier - DeRumba Van v.2.00 [B42]",
+      "workshop_ids": [
+        "3432015133"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 18,
+      "mod_id": "ATA_VanDeRumbaGardenia",
+      "name": "Autotsar Tuning Atelier - DeRumba Van 栀子MyGO痛车版 [B42]",
+      "workshop_ids": [
+        "3572562329"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 19,
+      "mod_id": "BrighterHeadlights",
+      "name": "BrighterHeadlights",
+      "workshop_ids": [
+        "3425507560"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 20,
+      "mod_id": "UnclearOpaqueHoppableFade",
+      "name": "Unclear Fences Fade",
+      "workshop_ids": [
+        "3799523320"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 21,
+      "mod_id": "BuildingCraft",
+      "name": "BuildingCraft",
+      "workshop_ids": [
+        "3459887404"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 22,
+      "mod_id": "Erikas_Tiles",
+      "name": "Erika's Tiles",
+      "workshop_ids": [
+        "3346506593"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 23,
+      "mod_id": "BuildingCraftErikastiles",
+      "name": "BuildingCraft - Erika's tiles",
+      "workshop_ids": [
+        "3488891189"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 24,
+      "mod_id": "RaccoonCityB42",
+      "name": "RaccoonCityB42",
+      "workshop_ids": [
+        "3388468313"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 25,
+      "mod_id": "CleanHotBar",
+      "name": "CleanHotBar",
+      "workshop_ids": [
+        "3461263912"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 26,
+      "mod_id": "BuildingCraftRaccoonCity",
+      "name": "BuildingCraft - RaccoonCity",
+      "workshop_ids": [
+        "3459888193"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 27,
+      "mod_id": "NeatUI_Framework",
+      "name": "NeatUI_Framework",
+      "workshop_ids": [
+        "3508537032"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 28,
+      "mod_id": "Project_Cook",
+      "name": "Project Cook",
+      "workshop_ids": [
+        "3490188370"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 29,
+      "mod_id": "Cute girl voice_solo",
+      "name": "Cute girl voice_solo",
+      "workshop_ids": [
+        "3393919250"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 30,
+      "mod_id": "B42DisableDebugText",
+      "name": "Disable Debug Text",
+      "workshop_ids": [
+        "3428712661"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 31,
+      "mod_id": "EliazNoMoreRottingCropsB42",
+      "name": "Eliaz No More Rotting Crops B42",
+      "workshop_ids": [
+        "3433115352"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 32,
+      "mod_id": "Erikas_Furniture_Store",
+      "name": "Erika's Furniture Store",
+      "workshop_ids": [
+        "3363546437"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 33,
+      "mod_id": "CleanUI",
+      "name": "CleanUI",
+      "workshop_ids": [
+        "3437629766"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 34,
+      "mod_id": "P4HasBeenRead",
+      "name": "Has Been Read",
+      "workshop_ids": [
+        "2544353492"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 35,
+      "mod_id": "Fashionoid42",
+      "name": "Fashionoid[42.13]",
+      "workshop_ids": [
+        "3402442760"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 36,
+      "mod_id": "FixBlowTorchPropaneTank",
+      "name": "Fix BlowTorch & PropaneTank",
+      "workshop_ids": [
+        "3044705007"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 37,
+      "mod_id": "Flashlight&LanternOnBeltB42",
+      "name": "Flashlight&LanternOnBeltB42",
+      "workshop_ids": [
+        "3401219823"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 38,
+      "mod_id": "ImprovedFarmingInfoWindow",
+      "name": "Improved Farming Info Window",
+      "workshop_ids": [
+        "3470852353"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 39,
+      "mod_id": "InjuryIndicator",
+      "name": "Injury Indicator",
+      "workshop_ids": [
+        "3565698092"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 40,
+      "mod_id": "MakeSmokerGreatAgain",
+      "name": "Make Smoker Great Again",
+      "workshop_ids": [
+        "3389960727"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 41,
+      "mod_id": "MapSymbolsPlusDeonHand",
+      "name": "Map Symbols Plus (Hand-drawn)",
+      "workshop_ids": [
+        "3399645148"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 42,
+      "mod_id": "ModLoadOrderSorter_b42",
+      "name": "Mod Load Order Sorter [b42]",
+      "workshop_ids": [
+        "3423660713"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 43,
+      "mod_id": "ChuckleberryFinnAlertSystem",
+      "name": "Mod Update and Alert System",
+      "workshop_ids": [
+        "3077900375"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 44,
+      "mod_id": "ModernStatus",
+      "name": "ModernStatus",
+      "workshop_ids": [
+        "3451167732"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 45,
+      "mod_id": "MoreItemInformation",
+      "name": "More Item Information",
+      "workshop_ids": [
+        "3494474677"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 46,
+      "mod_id": "MoreBooksSP",
+      "name": "MoreBooks更多技能书和杂志",
+      "workshop_ids": [
+        "3591234912"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 47,
+      "mod_id": "beek_muldraugh_firedept",
+      "name": "Muldraugh FireDepartment [B42]",
+      "workshop_ids": [
+        "3585472912"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 48,
+      "mod_id": "Neat_Building",
+      "name": "Neat Building",
+      "workshop_ids": [
+        "3536052310"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 49,
+      "mod_id": "Neat_Building_AddonXP",
+      "name": "Neat Building – XP & Mod Display",
+      "workshop_ids": [
+        "3540503606"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 50,
+      "mod_id": "Neat_Crafting",
+      "name": "Neat Crafting",
+      "workshop_ids": [
+        "3502080466"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 51,
+      "mod_id": "Ranger'sHomesteadB42",
+      "name": "Ranger's Homestead B42",
+      "workshop_ids": [
+        "3527172639"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 52,
+      "mod_id": "Neat_Crafting_AddonXP",
+      "name": "Neat Crafting – XP & Mod Display",
+      "workshop_ids": [
+        "3540503606"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 53,
+      "mod_id": "NoWelcomeWindow",
+      "name": "No Welcome Window [B42.21+]",
+      "workshop_ids": [
+        "3389338537"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 54,
+      "mod_id": "OpenMoreOptions",
+      "name": "OpenMoreOptions",
+      "workshop_ids": [
+        "3414095241"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 55,
+      "mod_id": "modid",
+      "name": "SafeharborGarrison",
+      "workshop_ids": [
+        "3522517059"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 56,
+      "mod_id": "SafeWayHamlet",
+      "name": "SafeWayHamlet",
+      "workshop_ids": [
+        "3533315055"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 57,
+      "mod_id": "errorMagnifier",
+      "name": "errorMagnifier",
+      "workshop_ids": [
+        "2896041179"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 58,
+      "mod_id": "Xixi's Weapon Pack",
+      "name": "[B42]Xixi's Weapon Pack",
+      "workshop_ids": [
+        "3442077203"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 59,
+      "mod_id": "VehicleRepairOverhaul",
+      "name": "Vehicle Repair Overhaul [build 42]",
+      "workshop_ids": [
+        "2757712197"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 60,
+      "mod_id": "VehicleSalvageOverhaulB42",
+      "name": "Vehicle Salvage Overhaul [build 42]",
+      "workshop_ids": [
+        "2757712197"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 61,
+      "mod_id": "Waterpipes",
+      "name": "Waterpipes",
+      "workshop_ids": [
+        "3546314080"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 62,
+      "mod_id": "TheyAreSaved",
+      "name": "TheyAreSaved",
+      "workshop_ids": [
+        "3401736188"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 63,
+      "mod_id": "TheShortcut",
+      "name": "TheShortcut",
+      "workshop_ids": [
+        "3470659758"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 64,
+      "mod_id": "Ivmakk_RestoreEngineQuality",
+      "name": "Restore Engine Quality",
+      "workshop_ids": [
+        "3543612325"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 65,
+      "mod_id": "TableSaw",
+      "name": "TableSaw",
+      "workshop_ids": [
+        "3540297822"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 66,
+      "mod_id": "GIRLS BAND CRY Music",
+      "name": "[B42]True Music Addon GIRLS BAND CRY Music Pack",
+      "workshop_ids": [
+        "3554671997"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 67,
+      "mod_id": "Poppin'Party music b42",
+      "name": "[B42]True Music Addon Poppin'Party Music Pack",
+      "workshop_ids": [
+        "3585009083"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 68,
+      "mod_id": "Anime music b42",
+      "name": "[B42]True Music Addon MyGo&Ave Mujica Music Pack",
+      "workshop_ids": [
+        "3585014312"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 69,
+      "mod_id": "b42FasterActions",
+      "name": "[B42MP]Faster Actions",
+      "workshop_ids": [
+        "3622862558"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 70,
+      "mod_id": "SkillRecoveryJournal",
+      "name": "Skill Recovery Journal",
+      "workshop_ids": [
+        "2503622437"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 71,
+      "mod_id": "ClientModsToServer",
+      "name": "Better Server Settings",
+      "workshop_ids": [
+        "2756434288"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 72,
+      "mod_id": "WorkshopUpdateCheck",
+      "name": "Workshop Update Check",
+      "workshop_ids": [
+        "3628835042"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 73,
+      "mod_id": "truemusic",
+      "name": "True Music_b42",
+      "workshop_ids": [
+        "3397198968"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 74,
+      "mod_id": "Roselia Music",
+      "name": "[B42]True Music Addon Roselia Music Pack",
+      "workshop_ids": [
+        "3654879576"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 75,
+      "mod_id": "SapphCooking_B42",
+      "name": "Sapph's Cooking",
+      "workshop_ids": [
+        "3409143790"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 76,
+      "mod_id": "VanillaFoodsExpanded",
+      "name": "Vanilla Foods Expanded",
+      "workshop_ids": [
+        "3577903007"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 77,
+      "mod_id": "MREfood4213",
+      "name": "More MRE and World Cuisine",
+      "workshop_ids": [
+        "3488617262"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 78,
+      "mod_id": "Chinesecuisine4213",
+      "name": "舌尖上的中国[42.20]",
+      "workshop_ids": [
+        "3412969115"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 79,
+      "mod_id": "SuPrimitiveCooking",
+      "name": "原始烹饪(SuPrimitiveCooking)",
+      "workshop_ids": [
+        "3619229745"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 80,
+      "mod_id": "ATA_VanDeRumbaGardeniaSkin",
+      "name": "Autotsar Tuning Atelier - DeRumba Van 栀子痛车-更多皮肤 [B42]",
+      "workshop_ids": [
+        "3619052766"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 81,
+      "mod_id": "DIYAutotsarParts42",
+      "name": "DIY Autotsar Parts [42]",
+      "workshop_ids": [
+        "3526469707"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 82,
+      "mod_id": "DIYAutotsarParts42MustangAddon",
+      "name": "DIY Autotsar Parts [42] Mustang Addon",
+      "workshop_ids": [
+        "3526469707"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 83,
+      "mod_id": "DIYAutotsarParts42VanillaAddon",
+      "name": "DIY Autotsar Parts [42] Vanilla Addon",
+      "workshop_ids": [
+        "3526469707"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 84,
+      "mod_id": "MoreDamagedObjects",
+      "name": "More Damaged Objects",
+      "workshop_ids": [
+        "3413150945"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 85,
+      "mod_id": "Estate 39",
+      "name": "Estate 39",
+      "workshop_ids": [
+        "3606927986"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 86,
+      "mod_id": "LBB42",
+      "name": "Legendary Backpack",
+      "workshop_ids": [
+        "3538353228"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 87,
+      "mod_id": "Legendary Backpacks - Texture Addon",
+      "name": "Legendary Backpacks - Texture Addon",
+      "workshop_ids": [
+        "3640321748"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 88,
+      "mod_id": "L4D2 Zombie Siege background Main Menu [16:9]",
+      "name": "L4D2 Zombie Siege background Main Menu [16:9]",
+      "workshop_ids": [
+        "3388808256"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 89,
+      "mod_id": "noirrslingMutiple",
+      "name": "[B42] Noir's Rifle Slings - Multiple slings",
+      "workshop_ids": [
+        "3388107363"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 90,
+      "mod_id": "noirrsling_HideSling",
+      "name": "[B42] Noir's Rifle Slings - Hide Sling",
+      "workshop_ids": [
+        "3388107363"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 91,
+      "mod_id": "REORDER_THE_HOTBAR",
+      "name": "Reorder The Hotbar",
+      "workshop_ids": [
+        "2903771337"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 92,
+      "mod_id": "Constown42",
+      "name": "Constown B42",
+      "workshop_ids": [
+        "3480990544"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 93,
+      "mod_id": "42Grapeseed",
+      "name": "Grapeseed [Redesigned for Build 42]",
+      "workshop_ids": [
+        "2463499011"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 94,
+      "mod_id": "noirrsling4-42.13patch",
+      "name": "[B42] Noir's Rifle Slings Multiple - 42.13+ patch",
+      "workshop_ids": [
+        "3625510824"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 95,
+      "mod_id": "Codex_NoirSling_SP_Compat_4221",
+      "name": "[B42.21 SP] Noir Sling Local Compatibility Fix",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 96,
+      "mod_id": "ProximityInventory",
+      "name": "Proximity Inventory B42",
+      "workshop_ids": [
+        "2847184718"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 97,
+      "mod_id": "ModernFirearmsSystem",
+      "name": "AAA_ModernFirearmsSystem(42.19)(SP/MP)",
+      "workshop_ids": [
+        "3633421539"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 98,
+      "mod_id": "TheyKnewContinued",
+      "name": "They Knew [B42] Continued",
+      "workshop_ids": [
+        "3813362974"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 99,
+      "mod_id": "CommonSenseReup",
+      "name": "Common Sense Reup",
+      "workshop_ids": [
+        "3792900796"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 100,
+      "mod_id": "WashFix",
+      "name": "Washing Menus Improved [B42.15+ SP/MP]",
+      "workshop_ids": [
+        "3460812542"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 101,
+      "mod_id": "CharacterOutfitPresetFix",
+      "name": "Character Outfit Preset Fix",
+      "workshop_ids": [
+        "3695510332"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 102,
+      "mod_id": "TargetSquareOnLoad",
+      "name": "Target Square: On Load Commands",
+      "workshop_ids": [
+        "2969455858"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 103,
+      "mod_id": "ISA",
+      "name": "Immersive Solar Arrays",
+      "workshop_ids": [
+        "3781944805"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 104,
+      "mod_id": "42_VSGirlBodyNSFW",
+      "name": "VSGirlBody_S_NSFW",
+      "workshop_ids": [
+        "3640496116"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 105,
+      "mod_id": "FantasyWorkshopVS42_4.0",
+      "name": "FantasyWorkshopVS42_4.0",
+      "workshop_ids": [
+        "3717576490"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 106,
+      "mod_id": "4123567854998",
+      "name": "[b42]二维衣橱",
+      "workshop_ids": [
+        "3497748766"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 107,
+      "mod_id": "BladesmithSystemB42",
+      "name": "AAA_BladesmithSystem(42.19)(SP/MP)",
+      "workshop_ids": [
+        "3633421539"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 108,
+      "mod_id": "BackpackSystemB42",
+      "name": "AAA_BackpackSystem(42.19)(SP/MP)",
+      "workshop_ids": [
+        "3633421539"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 109,
+      "mod_id": "SuPrimitiveEquipment",
+      "name": "原始装备(SuPrimitiveEquipment)",
+      "workshop_ids": [
+        "3619229745"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 110,
+      "mod_id": "TradingTrailer",
+      "name": "Trading Trailer",
+      "workshop_ids": [
+        "3572122233"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 111,
+      "mod_id": "KI5campers",
+      "name": "Campers!",
+      "workshop_ids": [
+        "3670064951"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 112,
+      "mod_id": "Codex_Campers_Glovebox_4221",
+      "name": "[B42.21] Campers Glovebox Container Compatibility",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 113,
+      "mod_id": "RVs_HeavyDuty_Trailers",
+      "name": "RVs, Heavy Duty & Trailers (B42.20-B42.21)",
+      "workshop_ids": [
+        "3773998539"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 114,
+      "mod_id": "birdbrainsPlushModLib",
+      "name": "birdbrain's B42 Plush Mod Lib",
+      "workshop_ids": [
+        "3689946923"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 115,
+      "mod_id": "MikuPlush",
+      "name": "Miku Plush",
+      "workshop_ids": [
+        "3768357815"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 116,
+      "mod_id": "TetoPlushies",
+      "name": "Kasane Teto Plushies",
+      "workshop_ids": [
+        "3603577358"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 117,
+      "mod_id": "postersplus",
+      "name": "Posters+ [B42]",
+      "workshop_ids": [
+        "3646582371"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 118,
+      "mod_id": "CustomMapLabels",
+      "name": "[B42] 模组地图自定义标签 Custom Map Labels",
+      "workshop_ids": [
+        "3559737194"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 119,
+      "mod_id": "Spawn Location_CN",
+      "name": "[B42] 模组地图出生点汉化 Spawn Location_CN",
+      "workshop_ids": [
+        "3448235767"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 120,
+      "mod_id": "B42Trans_CN",
+      "name": "[B42]统一中文汉化 (排序置底)",
+      "workshop_ids": [
+        "3556544454"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 121,
+      "mod_id": "B42ModTrans_CN",
+      "name": "[B42]统一模组汉化",
+      "workshop_ids": [
+        "3556540080"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 122,
+      "mod_id": "GardeniaTranslate_CN",
+      "name": "栀子的模组简体中文汉化补充_CN",
+      "workshop_ids": [
+        "3488835702"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 123,
+      "mod_id": "Codex_DebugMenu_Generator_4221",
+      "name": "[B42.21 SP] Erika Furniture Fix + Optional DebugMenu Guard",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 124,
+      "mod_id": "Codex_AmmoBox_CN_TextFix_4221",
+      "name": "[B42.21 CN] Washing Soap Text Fix",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 125,
+      "mod_id": "yxjs_PinYinSearch",
+      "name": "拼音搜索",
+      "workshop_ids": [
+        "3657184750"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 126,
+      "mod_id": "PinyinSearch_SafeSources_4221_LocalFix",
+      "name": "Pinyin Search Safe Sources B42.21 (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 127,
+      "mod_id": "Codex_ChineseCrop_Tooltip_4221",
+      "name": "Chinese Crop Season Tooltip B42.21 (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 128,
+      "mod_id": "NeatUI_Equipment",
+      "name": "NeatUI Equipment",
+      "workshop_ids": [
+        "3790656296"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 129,
+      "mod_id": "MoreAlertsB42",
+      "name": "More Alerts B42",
+      "workshop_ids": [
+        "3649265704"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 130,
+      "mod_id": "Codex_MFS_AttachedLight_Hotkey_4221",
+      "name": "[B42.21] MFS Attached Flashlight Hotkey Fix (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 131,
+      "mod_id": "Codex_MFS_AmmoVisual_Compat_4221",
+      "name": "[B42.21] MFS Ammo Box and Magazine Visual Compatibility (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 132,
+      "mod_id": "STA_BetterHutches",
+      "name": "StarkTruffle Additions - Better Hutches",
+      "workshop_ids": [
+        "3721829036"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 133,
+      "mod_id": "ZombieDismembermentB42",
+      "name": "Zombie Dismemberment [B42.21]",
+      "workshop_ids": [
+        "3811483602"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 134,
+      "mod_id": "ZombieVisibilityFix",
+      "name": "Zombie Visibility Fix",
+      "workshop_ids": [
+        "3814073243"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 135,
+      "mod_id": "TrueWeight",
+      "name": "True Weight",
+      "workshop_ids": [
+        "3768669395"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 136,
+      "mod_id": "Codex_AttachedGrouping_4221",
+      "name": "[B42.21] Attached Item Grouping and Wear Menu Fix (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 137,
+      "mod_id": "Codex_TrueMusic_Headphones_4221",
+      "name": "[B42.21 SP] True Music Headphones Compatibility (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 138,
+      "mod_id": "AutomaticStoveShutoff",
+      "name": "Automatic Stove Shutoff",
+      "workshop_ids": [
+        "3526968739"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 139,
+      "mod_id": "Codex_PrimitiveTooltip_4221",
+      "name": "[B42.21 SP] Primitive Equipment Fluid Tooltip Fix (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 140,
+      "mod_id": "Codex_DAMN_VanillaTires_4221",
+      "name": "[B42.21 SP] DAMN Vanilla Tire Repair (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 141,
+      "mod_id": "Codex_PetGunWeightKits_4221",
+      "name": "蘇清的现代枪械减重挂件",
+      "workshop_ids": [
+        "3824003141"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 142,
+      "mod_id": "Codex_InventoryTransferPerformance_4221",
+      "name": "[B42.21] Inventory Transfer Performance (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 143,
+      "mod_id": "SuQingContainerUpgrade_4221",
+      "name": "蘇清的容器升级 v1.0.0 [B42.21 SP]",
+      "workshop_ids": [
+        "3823988025"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 144,
+      "mod_id": "ExSuQingBackpackSuperUpgrade_4221",
+      "name": "蘇清的背包超级升级",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 145,
+      "mod_id": "SuQingMFSFixedBuyback_4221",
+      "name": "蘇清的枪械商店固定收购",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 146,
+      "mod_id": "ProjectFullHD",
+      "name": "True 3D Items",
+      "workshop_ids": [
+        "3803108123"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 147,
+      "mod_id": "CVI",
+      "name": "Carry Visible Items",
+      "workshop_ids": [
+        "3749026793"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 148,
+      "mod_id": "ConditionOnDash",
+      "name": "Condition On Dash",
+      "workshop_ids": [
+        "3306168142"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 149,
+      "mod_id": "ImmersiveSnow",
+      "name": "Immersive Snow",
+      "workshop_ids": [
+        "3810071828"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 150,
+      "mod_id": "BetterGeneratorInfo",
+      "name": "Better Generator Info",
+      "workshop_ids": [
+        "3576056135"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 151,
+      "mod_id": "LKB42",
+      "name": "Legendary Katana Wakizashi",
+      "workshop_ids": [
+        "3668370011"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 152,
+      "mod_id": "RainCleansBlood",
+      "name": "Rain Cleans Blood",
+      "workshop_ids": [
+        "2956146279"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 153,
+      "mod_id": "XingHeVitamin enhancement-42.13.1",
+      "name": "维生素改进版-42.13.1",
+      "workshop_ids": [
+        "3628786816"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 154,
+      "mod_id": "XFACTION_DynamicTraits",
+      "name": "XFACTION Dynamic Traits [B42]",
+      "workshop_ids": [
+        "3820502127"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 155,
+      "mod_id": "AdrenalineShot",
+      "name": "Adrenaline Shot",
+      "workshop_ids": [
+        "3791221767"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 156,
+      "mod_id": "RedbullSlobodskoy",
+      "name": "[B 42]Red Bull",
+      "workshop_ids": [
+        "3645178092"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 157,
+      "mod_id": "MonsterEnergy",
+      "name": "MonsterEnergy",
+      "workshop_ids": [
+        "3789832800"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 158,
+      "mod_id": "N&CsNarcotics",
+      "name": "N&C's Narcotics",
+      "workshop_ids": [
+        "3404956403"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 159,
+      "mod_id": "LiuDing_Tiles",
+      "name": "LiuDing_Tiles",
+      "workshop_ids": [
+        "3736154771"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 160,
+      "mod_id": "Roccos_Tiles",
+      "name": "Rocco's Tiles",
+      "workshop_ids": [
+        "3666137359"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 161,
+      "mod_id": "Begonia_Town",
+      "name": "Begonia_Town",
+      "workshop_ids": [
+        "3736155379"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 162,
+      "mod_id": "UnofficialMappersCommunityTilePack",
+      "name": "CommunityTilePack",
+      "workshop_ids": [
+        "3628736763"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 163,
+      "mod_id": "ThermoNewburbs",
+      "name": "ExtraNoise's Newburbs Tiles Official Continuation",
+      "workshop_ids": [
+        "3520263838"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 164,
+      "mod_id": "Nekomata Ridge",
+      "name": "Nekomata Ridge",
+      "workshop_ids": [
+        "3782173659"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 165,
+      "mod_id": "CodexNekomataEXCompat_4221",
+      "name": "猫又岭与蘇清背包超级升级兼容",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 166,
+      "mod_id": "CodexNekomataEXUpgrade_4221",
+      "name": "猫猫背包蘇清超级升级扩展",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 167,
+      "mod_id": "CodexCBRTIndependent_4221",
+      "name": "Chemical 独立兼容版 [42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 168,
+      "mod_id": "CodexXFACTION_CN_4221",
+      "name": "[B42.21 CN] XFACTION Dynamic Traits Chinese",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 169,
+      "mod_id": "CodexTranslatorPercentFix_4221",
+      "name": "True 3D Items - Tooltip Percent Fix (42.21)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 170,
+      "mod_id": "CodexCharacterMenuTweaks_4221",
+      "name": "[B42.21] Character Menu Tweaks",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 171,
+      "mod_id": "SurvivorBriefing",
+      "name": "Survivor Briefing",
+      "workshop_ids": [
+        "3808944882"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 172,
+      "mod_id": "UsefulBarrelsMP",
+      "name": "Useful Barrels",
+      "workshop_ids": [
+        "3436537035"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 173,
+      "mod_id": "LootTrackerB42",
+      "name": "Loot Tracker",
+      "workshop_ids": [
+        "3823828778"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 174,
+      "mod_id": "CodexNarcotics_CN_4221",
+      "name": "N&C's Narcotics 中文补丁 [B42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 175,
+      "mod_id": "SuQingRefrigerationUpgrade_4221",
+      "name": "蘇清的冷藏升级",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 176,
+      "mod_id": "ItIsOfInterestToMe",
+      "name": "It is of interest to me!",
+      "workshop_ids": [
+        "3796373365"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 177,
+      "mod_id": "CodexPZOptimization_CN_4221",
+      "name": "PZ Optimization 设置汉化 [B42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 178,
+      "mod_id": "ImmersiveSnowViewpoint",
+      "name": "Immersive Snow - Viewpoint",
+      "workshop_ids": [
+        "3816586790"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 179,
+      "mod_id": "RVViewpointPatch",
+      "name": "RV Viewpoint Patch",
+      "workshop_ids": [
+        "3817030886"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 180,
+      "mod_id": "ProjectViewpointQOL",
+      "name": "Project Viewpoint QOL",
+      "workshop_ids": [
+        "3811256204"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 181,
+      "mod_id": "SuThrow3D",
+      "name": "3D投掷物理引擎(苏别黎SuSir)",
+      "workshop_ids": [
+        "3826757123"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 182,
+      "mod_id": "WallTextureFixForViewpoint",
+      "name": "Wall Texture Fix for Viewpoint",
+      "workshop_ids": [
+        "3820609079"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 183,
+      "mod_id": "ViewpointDLSS",
+      "name": "Viewpoint DLSS Frame Generation",
+      "workshop_ids": [
+        "3818838508"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 184,
+      "mod_id": "Codex_MFSOpticsFix_4221",
+      "name": "[B42.21] MFS optics tag compatibility fix (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 185,
+      "mod_id": "ViewpointTileFix",
+      "name": "Viewpoint Tile Fix",
+      "workshop_ids": [
+        "3814178814"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 186,
+      "mod_id": "ViewpointFences3D",
+      "name": "Viewpoint - 3D Fences",
+      "workshop_ids": [
+        "3814486926"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 187,
+      "mod_id": "ViewpointBarricade",
+      "name": "Viewpoint - Barricade Fix",
+      "workshop_ids": [
+        "3815033191"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 188,
+      "mod_id": "ViewpointDoor",
+      "name": "Viewpoint - Door Fix",
+      "workshop_ids": [
+        "3812151347"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 189,
+      "mod_id": "ViewpointLight",
+      "name": "Viewpoint - Light Fix",
+      "workshop_ids": [
+        "3811344119"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 190,
+      "mod_id": "DynamicGearRattling",
+      "name": "Dynamic Gear Rattling",
+      "workshop_ids": [
+        "3808152720"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 191,
+      "mod_id": "HavenFall",
+      "name": "HavenFall",
+      "workshop_ids": [
+        "3728357493"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 192,
+      "mod_id": "PZVoxelStudioViewpoint",
+      "name": "6277 3D models for Viewpoint [sour_kisel]",
+      "workshop_ids": [
+        "3810302175"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 193,
+      "mod_id": "ViewpointVisibleLoot",
+      "name": "Viewpoint - Visible Loot",
+      "workshop_ids": [
+        "3818189653"
+      ],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": true
+    },
+    {
+      "order": 194,
+      "mod_id": "TarkovCombatStims",
+      "name": "Tarkov Combat Stims",
+      "workshop_ids": [
+        "3815980431"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 195,
+      "mod_id": "Codex_SuQingWearableCompat_4221",
+      "name": "蘇清容器升级：针剂盒与新增衣物兼容 [B42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 196,
+      "mod_id": "Codex_StimCompatibility_4221",
+      "name": "针剂轻量化与肾上腺素笔兼容 [B42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 197,
+      "mod_id": "Codex_NarcoticsStatus_4221",
+      "name": "N&C 药物状态面板 [B42.21]",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 198,
+      "mod_id": "Codex_FashionoidFluidTooltip_4221",
+      "name": "[B42.21] Fashionoid Fluid Tooltip Compatibility (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 199,
+      "mod_id": "Codex_XFDynamicRecordGuard_4221",
+      "name": "[B42.21 SP] XFACTION Progress Record Guard (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 200,
+      "mod_id": "Codex_MustangRecipeGuard_4221",
+      "name": "[B42.21 SP] Mustang Hood Recipe Compatibility (Local)",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 201,
+      "mod_id": "vac_mod_b42_utils",
+      "name": "Vac's Mod Utils",
+      "workshop_ids": [
+        "3557515648"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 202,
+      "mod_id": "Karas Zone Selector API",
+      "name": "Karas Zone Selector API",
+      "workshop_ids": [
+        "3653913180"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 203,
+      "mod_id": "vac_batch_farming",
+      "name": "Batch Farming",
+      "workshop_ids": [
+        "3721577741"
+      ],
+      "installation_source": "workshop",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "order": 204,
+      "mod_id": "SuQingSprinklerFertilizer",
+      "name": "蘇清的喷洒器施肥扩展",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false
+    },
+    {
+      "mod_id": "SuQingBatchFarmingMenu_4221",
+      "name": "蘇清的批量农耕菜单筛选",
+      "workshop_ids": [],
+      "installation_source": "local",
+      "local_copy_with_public_equivalent": false,
+      "order": 205
+    }
+  ]
+}
