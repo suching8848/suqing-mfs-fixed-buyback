@@ -1,0 +1,30 @@
+Use case: stylized-concept
+Asset type: candidate A, one square high-definition SuQing MFS fixed-buyback cover, “Warm lantern trading counter”. This is a candidate for selection, not a final replacement.
+
+Input images:
+Image 1 is the PRIMARY and ONLY character identity and outfit authority: the supplied full-body white dragon woman concept drawing.
+Image 2 is a LIGHT reference ONLY for pixel-art edge treatment, warm purple/amber atmosphere, and the purple/gold embroidered bottom title plaque. Do NOT copy Image 2's clothing or hairstyle, pose, backpack, tools, or scene. Do NOT use any previously generated trader design.
+
+Core request: re-pose the exact adult character from Image 1 in a warm, modest post-apocalyptic wooden trading counter scene. Preserve the concept character before all scene/style choices. This must look like the same character in the SAME ORIGINAL WHITE AND PALE-LAVENDER DRESS, not a merchant costume redesign.
+
+Identity and outfit invariants, strictly locked to Image 1:
+- Clearly adult woman; long loose flowing white hair with pale-lavender shadows, the same loose hair silhouette and fringe; no updo, no bun, no new braid or braided hairstyle.
+- Pale-lavender eyes; the same paired slender curved white dragon horns with visible segmented ridges; long pointed ears.
+- The exact side ornament is a WHITE coiled-flower knot/rosette with its fine hanging tassels, as in Image 1. No gold flower, gold head jewelry, crown, tiara, or elaborate new hair accessories.
+- The same original flowing white long dress with pale lavender embroidered/drifting panels and white/gray flower-knot motifs, the same white sleeves and hanging purple fabric, white-gray floral fasteners and delicate hanging tassels. The original bare-shoulder/long-sleeve arrangement and high neck remain recognizable. Preserve this outfit's lines and details. No apron, no shop uniform, no tactical outfit, no jacket or coat, no black leather belts or harness, no gold ceremonial costume.
+- The same white-framed pale-purple membrane dragon wings and a long WHITE SCALED dragon tail with pale-lavender shading.
+- Preserve the small BLUE CLOUD-SPIRIT companion from Image 1: one tiny light-blue cloud-shaped floating creature with dark-blue oval eyes, hovering just above her open hand. This companion is required.
+
+Scene and composition: show this character in three-quarter length behind a modest low wooden post-apocalyptic buyback counter under a warm lantern. Arrange the narrow counter at an angle so a large portion of her original long skirt and curving white scaled tail remain visible, rather than hiding her whole outfit behind a tall desk. Her right hand gently rests on an open ledger; the other hand is open with the small blue cloud spirit floating above the palm. Natural relaxed hands, peaceful friendly expression. Include one old military radio on the counter and a SMALL, orderly group of coins, two silver ingots, a couple of pieces of jewelry and two wristwatches to communicate fixed buyback/bulk selling. This is a modest practical trading place, NOT a luxury jewelry showroom. Safely stored guns sit on a background rack; she is not holding a weapon. A glimpse of a purple dusk ruined city appears through the timber opening.
+Style: fine detailed anime/pixel hybrid consistent with the established SuQing covers: deliberate crisp stepped pixel edges and texture, delicate face, warm amber lantern illumination, purple/lavender shadows, worn warm wood. Avoid glossy photorealism or painterly blur. Do not let warm light turn the white costume gold.
+Layout: square finished image. Character identity and visible original dress dominate the upper roughly two-thirds. Bottom third has an embroidered deep purple title plaque with restrained gold border, pale purple/white floral motifs and fine tassels. The plaque may borrow only the brand styling of Image 2.
+
+Text (verbatim), exact Chinese title in THREE lines:
+蘇清的
+枪械商店
+固定收购
+Small English subtitle below, exactly:
+FIXED BUYBACK
+Keep the full lettering legible and uncut, ivory/pale gold first line and lavender next two lines, all within plaque safe margins. No other readable scene text.
+
+Constraints: generate ONE new candidate image only. Full opaque background. Preserve Image 1's loose hair, white rosette/tassel head ornament, original white-and-lavender long dress, white-lavender wings and white scaled tail, and blue cloud spirit. No combat, aiming, firing or sexualized pose. No Build, B42, game version number, Steam logo, brand logos, watermark, signature, extra words, extra person, extra limbs or fingers.

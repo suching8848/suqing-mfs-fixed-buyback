@@ -1,0 +1,18 @@
+Use case: precise-object-edit
+Edit target: Image 1, candidate A “warm counter”. Image 2 is identity reference only, the original character concept; do not transfer its hand-on-chest pose.
+Make ONE narrow anatomical correction to Image 1 and preserve everything else.
+
+Remove the EXTRA THIRD HAND and its connected extra forearm at the woman's neck/upper chest, on the viewer-left side of her neck, beneath her jaw and beside the loose hair (approximately x=490–565, y=280–435 in the 1254-square target). This little hand touching her collar/hair is the unwanted third hand. Erase it completely. Naturally reconstruct the local long white hair, white/pale-lavender sleeve/drapery and outfit contours behind that unwanted limb, without creating any new arm, hand or skin-colored finger shape.
+
+The woman must have EXACTLY TWO ARMS AND TWO HANDS:
+1. KEEP the existing hand resting on the open ledger at lower viewer-left, with its existing arm and white sleeve.
+2. KEEP the existing open upturned hand beneath the small blue cloud spirit at upper viewer-right, with its existing arm and white sleeve.
+Both remaining arms must connect naturally to her shoulders. No hand may remain at the neck, collar, chest, hair, or face.
+
+Strict invariants: do not redesign or change her adult identity, face, pale-purple eyes, long LOOSE white hair (no new hairstyle), segmented white horns, pointed ears, white coiled-flower side ornament and fine tassels, original white-and-pale-lavender embroidered long dress, white draping sleeves, purple membrane wings, white scaled tail, or the little blue cloud spirit. Preserve the existing warm wooden counter composition, guns safely stored in background, amber lantern, dusk city, radio, ledger, valuables, lighting, palette, pixel/anime texture, and all other regions. In particular retain the exact existing title plaque and ALL lettering unchanged:
+蘇清的
+枪械商店
+固定收购
+FIXED BUYBACK
+
+This is a localized edit, not a new cover generation or a new pose. Keep the image square and opaque. No added objects, costume parts, words, logos, version numbers or watermarks. Deliver only one corrected image.

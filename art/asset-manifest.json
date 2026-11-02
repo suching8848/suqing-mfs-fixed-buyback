@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "selected_candidate": "A-warm-counter-v2",
+  "selection": "Selected by the author in this preparation session; original A with the extra hand and the rejected first cover are not used.",
+  "tool": "Built-in image_gen.imagegen",
+  "character_reference": "Author-provided white-haired, lavender-eyed dragon character concept; reference image is not bundled.",
+  "cover_generation": "Candidate A, followed by one localized edit removing the extra neck hand. The selected source retains exactly two hands, white/pale-lavender gown, horns, wings and scaled tail.",
+  "icon_generation": "Built-in generated character-and-coin icon, fitted in full to 215x215 inside a transparent 256x256 canvas without cropping.",
+  "exports": "System.Drawing HighQualityBicubic; square source resized without cropping. Poster 1024x1024, Workshop preview 512x512; selected cover source copied byte-for-byte.",
+  "text_zh": [
+    "蘇清的",
+    "枪械商店",
+    "固定收购"
+  ],
+  "text_en": "FIXED BUYBACK",
+  "game_version_on_art": false,
+  "images": [
+    {
+      "path": "art/cover-source.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2946803,
+      "sha256": "8260f50c12bd7b6ed2cce2899e63860d480249b35caf9f70dd6ad7ec87cf9f1b",
+      "pixel_format": "Format24bppRgb"
+    },
+    {
+      "path": "mod/SuQingMFSFixedBuyback_4221/42/poster.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 2859659,
+      "sha256": "962939535035cd57a33386f2518e6471ceca94c348823989f941d5d0df9a3382",
+      "pixel_format": "Format24bppRgb"
+    },
+    {
+      "path": "mod/SuQingMFSFixedBuyback_4221/42/icon.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 92625,
+      "sha256": "6cd50c294b74340ba93e144879a1d528112c80da0f133206dadb41bef03a2abf",
+      "pixel_format": "Format32bppArgb"
+    },
+    {
+      "path": "publishing/preview.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 734015,
+      "sha256": "9def33d55fee09121bf63d7698818d6975b5b7a15be4d3f065130c450cfd858d",
+      "pixel_format": "Format24bppRgb"
+    }
+  ],
+  "prompts": [
+    {
+      "path": "art/prompts/cover-A.txt",
+      "bytes": 4616,
+      "sha256": "c7558708bd37e11fc5f5a795e1e08da31a17476fac8847c739445f78d05313b1"
+    },
+    {
+      "path": "art/prompts/cover-A-fix.txt",
+      "bytes": 2156,
+      "sha256": "33313e43bc22ff04d751432d0a580f5858a524991aa62a036d978295d7ed5cde"
+    },
+    {
+      "path": "art/prompts/icon.txt",
+      "bytes": 2248,
+      "sha256": "eeb0cb454cb66e73e3cb1a6fd51478234572e41baf40c636a24d601c3e73be85"
+    }
+  ],
+  "gameplay_changed": false,
+  "mod_id": "SuQingMFSFixedBuyback_4221",
+  "mod_version": "1.1.0",
+  "deployed_to_game": false,
+  "uploaded_to_workshop": false
+}

@@ -2,6 +2,10 @@
 
 [中文](README.md) | English
 
+![SuQing's MFS Fixed Buyback cover](publishing/preview.png)
+
+The author selected cover candidate A. The mod now includes its own icon and poster; see the [artwork manifest](art/asset-manifest.json) for provenance and export details.
+
 A **Build 42.21 single-player** add-on for the ModernFirearmsSystem radio shop. Version **1.1.0** adds a fixed 122-item buyback list while retaining the original balance, random equipment stock and 12-hour refresh rule. Watches and precious-metal materials are enabled by default.
 
 Carry a radio, use the weapon's **Inspect Weapon** context action and open the radio icon. Only currently sellable items are listed by default; disable that filter to inspect the full catalog.
@@ -34,7 +38,7 @@ Buyback does not trust prices supplied by a client. Single-item and bulk transac
 
 Offline UI and inventory tests use controlled doubles. They do not establish correct rendering or persistence in a real save. This Git preparation did not launch the game, edit Workshop originals or enable other mods. Disabling the add-on restores the original MFS buyback behavior while preserving the existing balance.
 
-All installable package files, the version and Mod ID remain unchanged during Git preparation. Offline runners invoke a Kahlua helper main class rather than the game client. Building and packaging do not deploy files to a personal save.
+The earlier Git import preserved the original installable package. This artwork update only adds the icon, poster and their metadata declarations; gameplay, version and Mod ID are unchanged. Offline runners invoke a Kahlua helper main class rather than the game client. Building and packaging do not deploy files to a personal save.
 
 No open-source license has been assigned. Project Zomboid and ModernFirearmsSystem remain the work of their respective authors; this repository contains the independent add-on, project-owned verification tools and compatibility metadata.
 
