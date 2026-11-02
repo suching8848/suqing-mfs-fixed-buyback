@@ -61,8 +61,8 @@
     },
     {
       "path": "art/prompts/icon.txt",
-      "bytes": 2248,
-      "sha256": "eeb0cb454cb66e73e3cb1a6fd51478234572e41baf40c636a24d601c3e73be85"
+      "bytes": 2247,
+      "sha256": "50142463bc4e75b2d18ae9e5a56280ea84fd8c5c4b864421ca1cf297a613b127"
     }
   ],
   "gameplay_changed": false,
