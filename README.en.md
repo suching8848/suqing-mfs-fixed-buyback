@@ -17,7 +17,7 @@ Fixed currency prices are 10 for cash, 1000 for a money bundle, 50 for a silver 
 ## Requirements, patches and installation
 
 - Required original mod: [ModernFirearmsSystem](https://steamcommunity.com/sharedfiles/filedetails/?id=3633421539), Workshop ID `3633421539`, Mod ID `ModernFirearmsSystem`. Load this add-on after it. Original source code and resources are not bundled.
-- This add-on's fixed Mod ID is `SuQingMFSFixedBuyback_4221`. Current version: **1.1.0**. It is maintained for Build 42.21 single-player and has no separate published Workshop item.
+- This add-on's fixed Mod ID is `SuQingMFSFixedBuyback_4221`. Current version: **1.1.0**. It is maintained for Build 42.21 single-player. [Workshop item 3832223597](https://steamcommunity.com/sharedfiles/filedetails/?id=3832223597) is publicly published and remained public in the 2026-11-03 17:39 (Beijing time, UTC+8) status query.
 - Fully exit the game and protect the target save as appropriate. Copy `mod/SuQingMFSFixedBuyback_4221` into your user `Zomboid/mods` directory. Enable the original mod and this add-on in the intended save, preserve dependency order and restart. Install only one source for this Mod ID.
 - [SuQing's Patch Collection](https://github.com/suching8848/suqing-project-zomboid-patches/) is **optional, not a dependency**. Its MFS optics, light and ammunition-visual fixes address separate original-mod issues; they do not supply fixed-buyback logic. Firearm Weight Charms is also independent and is not needed for this add-on.
 
@@ -44,6 +44,6 @@ No open-source license has been assigned. Project Zomboid and ModernFirearmsSyst
 
 ## Related projects and setup snapshot
 
-[All eight mod and patch repositories](docs/project-index.md) · [Current 205-ID enabled order](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+[Ten source repositories and 42 Mod IDs](docs/project-index.md) · [Single-player enabled snapshot: 205 IDs on 2026-11-02 01:10 UTC+08:00](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
 
-The source index covers 37 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.
+The source index covers 42 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.

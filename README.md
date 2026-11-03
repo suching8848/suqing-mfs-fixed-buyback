@@ -17,7 +17,7 @@ Build 42.21 单人本地补丁，当前版本 1.1.0。为 ModernFirearmsSystem �
 ## 前置、补丁与安装
 
 - 必需原作：[ModernFirearmsSystem / 现代枪械系统](https://steamcommunity.com/sharedfiles/filedetails/?id=3633421539)，Workshop ID `3633421539`，Mod ID `ModernFirearmsSystem`。本模组在原作之后加载，不附带原作源码或资源。
-- 本模组固定 ID `SuQingMFSFixedBuyback_4221`，当前版本 **1.1.0**，支持 Build 42.21 单人；未发布独立创意工坊条目。
+- 本模组固定 ID `SuQingMFSFixedBuyback_4221`，当前版本 **1.1.0**，支持 Build 42.21 单人；[创意工坊条目 3832223597](https://steamcommunity.com/sharedfiles/filedetails/?id=3832223597) 已公开发布，2026-11-03 17:39（北京时间）状态读回仍为公开。
 - 完全退出游戏，按需要保护目标存档后，将 `mod/SuQingMFSFixedBuyback_4221` 复制到用户 `Zomboid/mods`。在目标单人档中启用原作与本模组并保持依赖顺序，然后重启游戏；同一 Mod ID 只安装一份来源。
 - [蘇清的僵尸毁灭工程补丁合集](https://github.com/suching8848/suqing-project-zomboid-patches/) 是可选补丁集合，**不是本模组前置**。其中 MFS 瞄具、灯光、弹药视觉修复各处理原作的独立问题，不提供本模组的固定收购逻辑；枪械减重挂件也是独立模组，无需为固定收购安装。
 
@@ -46,6 +46,6 @@ UI 和物品操作离线测试使用受控替身，不能代替游戏内视觉�
 
 ## 相关项目与配置快照
 
-[全部 8 个模组与补丁仓库](docs/project-index.md) · [当前单人档 205 项启用顺序](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+[10 个源码仓库与 42 个 Mod ID](docs/project-index.md) · [2026-11-02 01:10 的单人档启用快照（205 项）](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
 
-源码索引涵盖 37 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。
+源码索引涵盖 42 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。
