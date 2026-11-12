@@ -1,5 +1,9 @@
 # 蘇清的枪械商店固定收购模组 / SuQing’s MFS Fixed Buyback Mod
 
+## 42.22.2 离线适配候选
+
+`1.1.1-rc.1` 支持 B42.21–42.22 单人。继续使用当前 MFS 的交易接口、原商店余额和既有结算规则。游戏内待验。
+
 中文 | [English](README.en.md)
 
 ![蘇清的枪械商店固定收购封面](publishing/preview.png)

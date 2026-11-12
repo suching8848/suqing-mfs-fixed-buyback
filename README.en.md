@@ -1,5 +1,9 @@
 # SuQing’s MFS Fixed Buyback Mod / 蘇清的枪械商店固定收购模组
 
+## 42.22.2 offline compatibility candidate
+
+`1.1.1-rc.1` targets B42.21–42.22 single-player. It uses the installed MFS trade API and retains the original store balance and settlement rules. In-game testing is pending.
+
 [中文](README.md) | English
 
 ![SuQing's MFS Fixed Buyback cover](publishing/preview.png)
